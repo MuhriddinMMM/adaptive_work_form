@@ -1,0 +1,223 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+#registr {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+[class*="column-"] {
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 1px;
+    max-width: 100%;
+}
+
+.padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.flex_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.flex_column {
+    display: flex;
+    flex-direction: column;
+}
+.column-1 {
+    flex: 0 0 100%;
+}
+.column-2 {
+    flex: 0 0 50%;
+}
+.column-3 {
+    flex: 0 0 33.33%;
+}
+
+.column_1 {
+    flex: 0 0 calc(100% - 30px);
+}
+.column_2 {
+    flex: 0 0 50%;
+}
+.registration {
+    padding: 30px;
+    background-color:#f5f5f5;
+    box-shadow: 0 0 10px 0 black;
+    width: 800px;
+    position: relative;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.registr_detail {
+    display: flex;
+    flex-direction: row;
+}
+.registration_form {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 50%;
+}
+.personal_details {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 50%;
+}
+.checkbox_offer {
+    display: flex;
+    flex-direction: column;
+}
+.password_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.l_f_name {
+    display: flex;
+    flex-direction: row;
+}
+.male_date {
+    display: flex;
+    flex-direction: row;
+}
+img {
+    width: 100%;
+    display: block;
+}
+.user_icon, .password_icon,  .email_icon{
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.user_icon img {
+    width: 20px;
+}
+.password_icon img {
+    width: 20px;
+}
+.email_icon img {
+    width: 20px;
+}
+.checkbox {
+    width: 20px;
+}
+select {
+   padding: 9.6px; 
+   border: none;
+   width: 100%;
+   border-bottom: 1px solid black;
+   outline: none;
+   background-color: transparent;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 8px;
+    outline: none;
+    background-color: transparent;
+}
+.line_header {
+    border-bottom: 2px solid#ededed;
+    position: relative;
+    width:800px;
+    left: -30px;
+    margin-bottom: 20px;
+}
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+button {
+    width: 130px;
+    padding: 10px 30px;
+    border: none;
+    background-color: #008b8b;
+    color: #fff;
+    outline: none;
+}
+.btn_submit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 899px)  {
+    
+    .registration {
+        width: 500px;
+    }
+    .registr_detail {
+        display: flex;
+    flex-direction: column;
+    }
+    .line_header {
+        width: 500px;
+    }
+}
+@media (max-width: 599px) {
+    .registration {
+        width: 320px;
+    }
+     .line_header {
+        width: 320px;
+        left: -10px;
+    }
+    .password_block {
+        display: flex;
+        flex-direction: column;
+    }
+    .password_icon {
+        align-self: start;
+        padding-top: 15px;
+    }
+    .registration {
+        padding: 10px;
+    }
+    .l_f_name {
+        display: flex;
+        flex-direction: column;
+    }
+    .male_date {
+        display: flex;
+        flex-direction: column;
+    }
+    .checkbox_offer label {
+        font-size: 12px;
+        line-height: 30px;
+    }
+    .checkbox {
+        align-self: center;
+    }
+}

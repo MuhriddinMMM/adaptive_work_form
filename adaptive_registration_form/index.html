@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Registration</title>
+</head>
+<body>
+  <div id="registr">
+    <div class="row">
+        <div class="registration">
+
+            <form class="">
+                <div class="registr_detail">
+                    <div class="registration_form column-">
+                        <div class="padding">
+                            <h3>Registration form</h3>
+                        </div>
+                        <div class="flex_row">
+                            <div class="user_icon">
+                                <label for="username">
+                                    <img src="img/username.png" alt="">
+                                </label>
+                            </div>
+                            <div class="column_1 padding"><input 
+                                type="text" id="username" name="username" placeholder="Username"></div>
+                        </div>
+                        <div class="flex_row">
+                            <div class="email_icon ">
+                                <label for="email">
+                                    <img src="img/email.png" alt="">
+                                </label>
+                            </div>
+                            <div class="column_1 padding"><input type="email" id="email" name="email" placeholder="Email address"></div>
+                        </div>
+                        <div class="flex_row">
+                            <div class="password_icon">
+                                <label for="password">
+                                    <img src="img/pswd.png" alt="">
+                                </label>
+                            </div>
+                            <div class="column_1  password_block">
+                                <div class="padding"><input type="password" id="password" name="password" placeholder="Password"></div>
+                                <div class="padding"><input type="password" id="password" name="password" placeholder="Confirm password"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="personal_details column-">
+                        <div class="padding">
+                            <h3>Personal details</h3>
+                        </div>
+                        <div class="l_f_name">
+                            <div class="column_2 padding"><input type="fname" id="fname" name="fname" placeholder="First name"></div>
+                            <div class="column_2 padding"><input type="lname" id="lname" name="lname" placeholder="Last name"></div>
+                        </div>
+                        <div class="male_date">
+                            <div class="column_2 padding"><select name="sex" id="sex">
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select></div>
+                            <div class="column_2 padding"><input type="date" id="birtday" name="birtday"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="checkbox_offer column-">
+                    <div class="flex_row padding">
+                        <div class="checkbox">
+                            <input type="checkbox" name="offer" id="offer">
+                        </div>
+                        <div class="column_1">
+                            <label for="offer">I want to receive news and special offers</label>
+                        </div>
+                    </div>
+                    <div class="flex_row padding">
+                        <div class="checkbox">
+                            <input type="checkbox" name="agree" id="agree">
+                        </div>
+                        <div class="column_1">
+                            <label for="agree">I agree with the Terms and Conditions</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="line_header padding">
+                    
+                </div>
+                <div class="btn_submit column- ">
+                    <div class="padding">
+                        <button type="submit">SUBMIT</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+  </div>  
+</body>
+</html>

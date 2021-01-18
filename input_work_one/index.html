@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>work one input</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <form>
+      <div id="input">
+        <div class="container">
+          <div class="row">
+            <div class="input">
+              <div class="column-1">
+                <h3 class="column-1">Inputs</h3>
+              </div>
+              <div class="column-10">
+                <div class="column-3">
+                  <input
+                    class="email"
+                    type="email"
+                    id="textone"
+                    name="textone"
+                    placeholder="Email"
+                    required
+                  />
+                  <!-- <div class="valid-feedback">
+                    <i class="fa-check"></i>
+                  </div>
+                  <div class="invalid-feedback">
+                    <i class="fa-times"></i>
+                  </div> -->
+                </div>
+
+                <div class="column-3">
+                  <input
+                    class="facebook_url"
+                    type="url"
+                    name="texttwo"
+                    id="texttwo"
+                    placeholder="URL facebook"
+                    required
+                  />
+                  <div class="valid-feedback feedback-icon">
+                    <i class="fa fa-check"></i>
+                  </div>
+                  <!-- <div class="invalid-feedback feedback-icon">
+                    <i class="fa fa-times"></i>
+                  </div> -->
+                </div>
+                <div class="column-3">
+                  <input
+                    class="telegram_url"
+                    type="url"
+                    id="textthree"
+                    name="textthree"
+                    placeholder="URL telegram"
+                    required
+                  />
+                  <!-- <div class="valid-feedback feedback-icon">
+                    <i class="fa fa-check"></i>
+                  </div> -->
+                  <div class="invalid-feedback feedback-icon">
+                    <i class="fa fa-times"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="column-1">
+                <h3 class="column-1">Check boxes</h3>
+              </div>
+              <div class="column-10">
+                <div class="column-10">
+                  <div class="column-2 toggle">
+                    <input
+                      class="toggle_button"
+                      id="subscribe"
+                      name="subscribe"
+                      type="checkbox"
+                      unchecked
+                    />
+                  </div>
+                  <div class="column-2">
+                    <label for="subscribe">Subscribe</label>
+                  </div>
+                </div>
+                <div class="column-10">
+                  <div class="column-2 toggle">
+                    <input
+                      class="toggle_button"
+                      id="subscribes"
+                      name="subsribe"
+                      type="checkbox"
+                      checked
+                    />
+                  </div>
+                  <div class="column-2">
+                    <label for="subscribes">Subscribe</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column-1">
+                <h3 class="column-1">Radio buttons</h3>
+              </div>
+              <!-- radio start -->
+              <div class="column-10 radio_btn">
+                <div class="column-10">
+                  <label for="gender">Gender:</label>
+                </div>
+                <div class="column-10">
+                  <div class="column-">
+                    <input
+                      class="radio_toogle"
+                      type="radio"
+                      name="sex"
+                      id="male"
+                      checked
+                    />
+                  </div>
+                  <div class="column-"><label for="male">Male</label></div>
+                </div>
+                <div class="column-10">
+                  <div class="column-">
+                    <input
+                      class="radio_toogle"
+                      type="radio"
+                      name="sex"
+                      id="female"
+                    />
+                  </div>
+                  <div class="column-"><label for="female">Female</label></div>
+                </div>
+              </div>
+              <!-- radio end -->
+              <div class="column-10"><h3 class="column-10">Buttons</h3></div>
+              <div class="column-10">
+                <div class="column-10">
+                  <button class="btn_one" type="submit">Active</button>
+                </div>
+                <div class="column-10">
+                  <button class="btn_one" type="submit">Hover</button>
+                </div>
+                <div class="column-10">
+                  <button class="btn_two" type="submit">Danger</button>
+                </div>
+                <div class="column-10">
+                  <button class="btn_two" type="submit">Hover</button>
+                </div>
+                <div class="column-10">
+                  <button class="btn_disabled" type="submit">Disabled</button>
+                </div>
+                <div class="column-10">
+                  <button class="circle" type="reset"><span class="plus"></span></button>
+                </div>
+                <div class="column-10">
+                  <button class="circle" type="reset"><span class="minus"></span></button>
+                </div>
+              </div>
+              <div class="column-10">
+                <h3 class="column-10">Text area</h3>
+              </div>
+              <div class="column-1">
+                <div class="column-1">
+                  <textarea
+                    name="text"
+                    id="text"
+                    placeholder="Enter some text"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
